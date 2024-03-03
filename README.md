@@ -1,3 +1,3 @@
-# Developing Applications with .NET (CT31OH)
+# Developing Applications with .NET (CT310H)
 
-This course is offered at Can Tho University.
+This particular course is available at Can Tho University.
