@@ -1,0 +1,16 @@
+D:\Online\.NET\Labs\Lab03\bin\Debug\net8.0-windows\Lab03.exe
+D:\Online\.NET\Labs\Lab03\bin\Debug\net8.0-windows\Lab03.deps.json
+D:\Online\.NET\Labs\Lab03\bin\Debug\net8.0-windows\Lab03.runtimeconfig.json
+D:\Online\.NET\Labs\Lab03\bin\Debug\net8.0-windows\Lab03.dll
+D:\Online\.NET\Labs\Lab03\bin\Debug\net8.0-windows\Lab03.pdb
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.frmBookSale.resources
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.csproj.GenerateResource.cache
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.AssemblyInfoInputs.cache
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.AssemblyInfo.cs
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.csproj.CoreCompileInputs.cache
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.dll
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\refint\Lab03.dll
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.pdb
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\Lab03.genruntimeconfig.cache
+D:\Online\.NET\Labs\Lab03\obj\Debug\net8.0-windows\ref\Lab03.dll

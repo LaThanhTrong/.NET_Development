@@ -1,0 +1,16 @@
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02_BT3.Form1.resources
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.csproj.GenerateResource.cache
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.AssemblyInfoInputs.cache
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.AssemblyInfo.cs
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.csproj.CoreCompileInputs.cache
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\bin\Debug\net8.0-windows\Lab02-BT3.exe
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\bin\Debug\net8.0-windows\Lab02-BT3.deps.json
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\bin\Debug\net8.0-windows\Lab02-BT3.runtimeconfig.json
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\bin\Debug\net8.0-windows\Lab02-BT3.dll
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\bin\Debug\net8.0-windows\Lab02-BT3.pdb
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.dll
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\refint\Lab02-BT3.dll
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.pdb
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\Lab02-BT3.genruntimeconfig.cache
+D:\Online\.NET\Labs\Lab02\Lab02-BT3\obj\Debug\net8.0-windows\ref\Lab02-BT3.dll

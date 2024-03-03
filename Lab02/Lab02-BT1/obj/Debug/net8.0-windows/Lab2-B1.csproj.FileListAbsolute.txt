@@ -1,0 +1,16 @@
+D:\Online\.NET\Labs\Lab02\bin\Debug\net8.0-windows\Lab2-B1.exe
+D:\Online\.NET\Labs\Lab02\bin\Debug\net8.0-windows\Lab2-B1.deps.json
+D:\Online\.NET\Labs\Lab02\bin\Debug\net8.0-windows\Lab2-B1.runtimeconfig.json
+D:\Online\.NET\Labs\Lab02\bin\Debug\net8.0-windows\Lab2-B1.dll
+D:\Online\.NET\Labs\Lab02\bin\Debug\net8.0-windows\Lab2-B1.pdb
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab02.StudentDetails.resources
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.csproj.GenerateResource.cache
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.AssemblyInfoInputs.cache
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.AssemblyInfo.cs
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.csproj.CoreCompileInputs.cache
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.dll
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\refint\Lab2-B1.dll
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.pdb
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\Lab2-B1.genruntimeconfig.cache
+D:\Online\.NET\Labs\Lab02\obj\Debug\net8.0-windows\ref\Lab2-B1.dll
