@@ -27,6 +27,7 @@ namespace Lab08
         {
             userid = iid;
             getCourses();
+            getClasses();
         }
 
         public void getCourses()
@@ -38,7 +39,6 @@ namespace Lab08
                 SqlCommand cmd = new SqlCommand(query, clsDatabase.conn);
 
                 cmd.Parameters.AddWithValue("@userid", userid);
-
                 SqlDataReader dr = cmd.ExecuteReader();
                 DataTable dt = new DataTable();
                 dt.Load(dr);
@@ -54,26 +54,23 @@ namespace Lab08
             }
         }
 
-        public void getDiemThi()
+        public void getClasses()
         {
             try
             {
                 clsDatabase.OpenConnection();
-                string query = "SELECT g.DiemThi FROM Instructors i JOIN Grades g ON g.MaCB = i.MaCB JOIN Courses c ON c.MaMon = g.MaMon WHERE i.MaCB=@userid AND c.MaMon=@cid";
+                string query = "SELECT cls.MaLop, cls.TenLop FROM Instructors i JOIN Teaching t ON t.MaCB = i.MaCB JOIN Courses c ON c.MaMon = t.MaMon JOIN CLASS cls ON cls.MaLop = t.MaLop WHERE i.MaCB=@userid GROUP BY cls.MaLop, cls.TenLop;";
                 SqlCommand cmd = new SqlCommand(query, clsDatabase.conn);
 
                 cmd.Parameters.AddWithValue("@userid", userid);
-                cmd.Parameters.AddWithValue("@cid", cbbCourse.SelectedValue);
                 SqlDataReader dr = cmd.ExecuteReader();
-                if (dr.Read())
-                {
-                    tbGrade.Text = dr["DiemThi"].ToString();
-                }
-                else
-                {
-                    tbGrade.Text = "";
-                }
+                DataTable dt = new DataTable();
+                dt.Load(dr);
+                cbbClass.DataSource = dt;
+                cbbClass.DisplayMember = "TenLop";
+                cbbClass.ValueMember = "MaLop";
                 clsDatabase.CloseConnection();
+                cbbClass.SelectedIndex = -1;
             }
             catch (Exception ex)
             {
@@ -83,76 +80,81 @@ namespace Lab08
 
         private void cbbCourse_SelectionChangeCommitted(object sender, EventArgs e)
         {
-            getDiemThi();
             getStudents();
-        }
-
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-            if (cbbCourse.SelectedIndex == -1)
-            {
-                MessageBox.Show("Please select a course!");
-            }
-            else
-            {
-                try
-                {
-                    clsDatabase.OpenConnection();
-                    string query = "UPDATE Grades SET DiemThi=@grade WHERE MaCB=@userid AND MaMon=@cid";
-                    SqlCommand cmd = new SqlCommand(query, clsDatabase.conn);
-
-                    cmd.Parameters.AddWithValue("@userid", userid);
-                    cmd.Parameters.AddWithValue("@cid", cbbCourse.SelectedValue);
-                    cmd.Parameters.AddWithValue("@grade", tbGrade.Text);
-
-                    int result = cmd.ExecuteNonQuery();
-                    if (result > 0)
-                    {
-                        MessageBox.Show("Update successful!");
-                        getDiemThi();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Update failed!");
-                    }
-                    clsDatabase.CloseConnection();
-
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message);
-                }
-            }
         }
 
         public void getStudents()
         {
+            dtStd.Columns.Clear();
             try
             {
-                clsDatabase.OpenConnection();
-                string query = "SELECT c.MaMon, t.MaLop, s.TenLop, s.MSSV, s.HoTen FROM Instructors i JOIN Teaching t ON i.MaCB = t.MaCB JOIN Students s ON s.MaLop = t.MaLop JOIN Courses c ON c.MaMon = t.MaMon WHERE i.MaCB=@userid AND c.MaMon=@cid;";
-                SqlCommand cmd = new SqlCommand(query, clsDatabase.conn);
+                if(cbbClass.SelectedIndex != -1 && cbbCourse.SelectedIndex != -1)
+                {
+                    clsDatabase.OpenConnection();
+                    string query = "SELECT st.MSSV as MSSV, st.HoTen as Name, g.DiemThi as Grade FROM Students st JOIN Grades g ON g.MSSV = st.MSSV WHERE st.MaLop = @clsid AND g.MaMon = @crsid;";
+                    SqlCommand cmd = new SqlCommand(query, clsDatabase.conn);
 
-                cmd.Parameters.AddWithValue("@userid", userid);
-                cmd.Parameters.AddWithValue("@cid", cbbCourse.SelectedValue);
-                SqlDataReader dr = cmd.ExecuteReader();
-                DataTable dt = new DataTable();
-                dt.Load(dr);
-
-                // Set the DataGridView data source
-                dtStd.DataSource = dt;
-
-                // Automatically adjust the column widths
-                dtStd.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
-                // Automatically adjust the row heights
-                dtStd.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-
-                clsDatabase.CloseConnection();
+                    cmd.Parameters.AddWithValue("@clsid", cbbClass.SelectedValue);
+                    cmd.Parameters.AddWithValue("@crsid", cbbCourse.SelectedValue);
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    DataTable dt = new DataTable();
+                    dt.Load(dr);
+                    dt.Columns["MSSV"].ReadOnly = true;
+                    dt.Columns["Name"].ReadOnly = true;
+                    dtStd.DataSource = dt;
+                    clsDatabase.CloseConnection();
+                    DataGridViewButtonColumn btnColumn = new DataGridViewButtonColumn();
+                    btnColumn.Name = "action";
+                    btnColumn.HeaderText = "Action";
+                    btnColumn.Text = "Edit";
+                    btnColumn.UseColumnTextForButtonValue = true;
+                    dtStd.Columns.Add(btnColumn);
+                    dtStd.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                    dtStd.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void cbbClass_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            getStudents();
+        }
+
+        private void dtStd_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dtStd != null && dtStd.Columns.Contains("action") && e.ColumnIndex == dtStd.Columns["action"].Index && e.RowIndex >= 0)
+            {
+                int selectedRowIndex = e.RowIndex;
+                float grade = float.Parse(dtStd.Rows[selectedRowIndex].Cells["Grade"].Value.ToString());
+                string mssv = dtStd.Rows[selectedRowIndex].Cells["MSSV"].Value.ToString();
+                if(cbbCourse.SelectedIndex != -1)
+                {
+                    try
+                    {
+                        clsDatabase.OpenConnection();
+                        string query = "UPDATE Grades SET DiemThi = @grade WHERE MSSV = @mssv AND MaMon = @crsid";
+                        SqlCommand cmd = new SqlCommand(query, clsDatabase.conn);
+                        cmd.Parameters.AddWithValue("@grade", grade);
+                        cmd.Parameters.AddWithValue("@mssv", mssv);
+                        cmd.Parameters.AddWithValue("@crsid", cbbCourse.SelectedValue);
+                        cmd.ExecuteNonQuery();
+                        clsDatabase.CloseConnection();
+                        MessageBox.Show("Update successful!");
+                        getStudents();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error: " + ex.Message);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please select a course!");
+                }
             }
         }
     }

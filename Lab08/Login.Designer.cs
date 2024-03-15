@@ -37,17 +37,19 @@
             // 
             // tbId
             // 
-            tbId.Location = new Point(72, 50);
+            tbId.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbId.Location = new Point(121, 36);
             tbId.Name = "tbId";
-            tbId.Size = new Size(219, 23);
+            tbId.Size = new Size(219, 25);
             tbId.TabIndex = 0;
             tbId.Text = "001";
             // 
             // tbPwd
             // 
-            tbPwd.Location = new Point(72, 118);
+            tbPwd.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbPwd.Location = new Point(121, 86);
             tbPwd.Name = "tbPwd";
-            tbPwd.Size = new Size(219, 23);
+            tbPwd.Size = new Size(219, 25);
             tbPwd.TabIndex = 1;
             tbPwd.Text = "123";
             tbPwd.UseSystemPasswordChar = true;
@@ -55,24 +57,27 @@
             // lb1
             // 
             lb1.AutoSize = true;
-            lb1.Location = new Point(12, 53);
+            lb1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lb1.Location = new Point(12, 37);
             lb1.Name = "lb1";
-            lb1.Size = new Size(17, 15);
+            lb1.Size = new Size(103, 20);
             lb1.TabIndex = 2;
-            lb1.Text = "Id";
+            lb1.Text = "Instructior ID";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(9, 121);
+            label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(12, 88);
             label2.Name = "label2";
-            label2.Size = new Size(57, 15);
+            label2.Size = new Size(76, 20);
             label2.TabIndex = 3;
             label2.Text = "Password";
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(72, 168);
+            btnLogin.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogin.Location = new Point(121, 128);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(219, 35);
             btnLogin.TabIndex = 4;
@@ -84,7 +89,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(311, 215);
+            BackColor = SystemColors.GradientActiveCaption;
+            ClientSize = new Size(359, 177);
             Controls.Add(btnLogin);
             Controls.Add(label2);
             Controls.Add(lb1);

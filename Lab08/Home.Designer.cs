@@ -32,8 +32,8 @@
             cbbCourse = new ComboBox();
             dtStd = new DataGridView();
             label1 = new Label();
-            tbGrade = new TextBox();
-            btnUpdate = new Button();
+            label3 = new Label();
+            cbbClass = new ComboBox();
             label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)dtStd).BeginInit();
             SuspendLayout();
@@ -41,16 +41,17 @@
             // lbname
             // 
             lbname.AutoSize = true;
-            lbname.Location = new Point(21, 18);
+            lbname.Location = new Point(77, 22);
             lbname.Name = "lbname";
-            lbname.Size = new Size(57, 15);
+            lbname.Size = new Size(41, 15);
             lbname.TabIndex = 0;
-            lbname.Text = "Welcome";
+            lbname.Text = "admin";
             // 
             // cbbCourse
             // 
+            cbbCourse.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             cbbCourse.FormattingEnabled = true;
-            cbbCourse.Location = new Point(468, 18);
+            cbbCourse.Location = new Point(594, 19);
             cbbCourse.Name = "cbbCourse";
             cbbCourse.Size = new Size(121, 23);
             cbbCourse.TabIndex = 1;
@@ -58,56 +59,62 @@
             // 
             // dtStd
             // 
+            dtStd.AllowUserToAddRows = false;
             dtStd.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dtStd.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtStd.Location = new Point(21, 57);
             dtStd.Name = "dtStd";
-            dtStd.Size = new Size(568, 370);
+            dtStd.Size = new Size(694, 370);
             dtStd.TabIndex = 2;
+            dtStd.CellContentClick += dtStd_CellContentClick;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label1.AutoSize = true;
-            label1.Location = new Point(415, 22);
+            label1.Location = new Point(542, 23);
             label1.Name = "label1";
             label1.Size = new Size(49, 15);
             label1.TabIndex = 3;
             label1.Text = "Courses";
             // 
-            // tbGrade
+            // label3
             // 
-            tbGrade.Location = new Point(201, 18);
-            tbGrade.Name = "tbGrade";
-            tbGrade.Size = new Size(137, 23);
-            tbGrade.TabIndex = 4;
+            label3.AutoSize = true;
+            label3.Location = new Point(21, 22);
+            label3.Name = "label3";
+            label3.Size = new Size(60, 15);
+            label3.TabIndex = 7;
+            label3.Text = "Welcome,";
             // 
-            // btnUpdate
+            // cbbClass
             // 
-            btnUpdate.Location = new Point(340, 18);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(62, 23);
-            btnUpdate.TabIndex = 5;
-            btnUpdate.Text = "Update";
-            btnUpdate.UseVisualStyleBackColor = true;
-            btnUpdate.Click += btnUpdate_Click;
+            cbbClass.Anchor = AnchorStyles.Top;
+            cbbClass.FormattingEnabled = true;
+            cbbClass.Location = new Point(412, 19);
+            cbbClass.Name = "cbbClass";
+            cbbClass.Size = new Size(121, 23);
+            cbbClass.TabIndex = 8;
+            cbbClass.SelectionChangeCommitted += cbbClass_SelectionChangeCommitted;
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top;
             label2.AutoSize = true;
-            label2.Location = new Point(157, 22);
+            label2.Location = new Point(364, 23);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 6;
-            label2.Text = "Grade";
+            label2.Size = new Size(45, 15);
+            label2.TabIndex = 9;
+            label2.Text = "Classes";
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(601, 450);
+            ClientSize = new Size(727, 450);
             Controls.Add(label2);
-            Controls.Add(btnUpdate);
-            Controls.Add(tbGrade);
+            Controls.Add(cbbClass);
+            Controls.Add(label3);
             Controls.Add(label1);
             Controls.Add(dtStd);
             Controls.Add(cbbCourse);
@@ -125,8 +132,8 @@
         private ComboBox cbbCourse;
         private DataGridView dtStd;
         private Label label1;
-        private TextBox tbGrade;
-        private Button btnUpdate;
+        private Label label3;
+        private ComboBox cbbClass;
         private Label label2;
     }
 }
