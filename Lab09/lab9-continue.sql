@@ -1,7 +1,7 @@
 Create database lab9;
 use lab9
 
-select * from khachHang
+select username as Username, real_name as Name, birthday, gender, email from khachHang;
 Create Login mylogin with password='mylogin', CHECK_POLICY = OFF;
 sp_changedbowner mylogin;
 

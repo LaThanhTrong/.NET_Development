@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Online\\.NET\\Labs\\Lab10-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B80213B-F5C5-486B-AB94-AE44F28D8A6E}|lab9-again\\lab9-again.csproj|d:\\online\\.net\\labs\\lab10-2\\lab9-again\\customerlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B80213B-F5C5-486B-AB94-AE44F28D8A6E}|lab9-again\\lab9-again.csproj|solutionrelative:lab9-again\\customerlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B80213B-F5C5-486B-AB94-AE44F28D8A6E}|lab9-again\\lab9-again.csproj|d:\\online\\.net\\labs\\lab10-2\\lab9-again\\customerlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B80213B-F5C5-486B-AB94-AE44F28D8A6E}|lab9-again\\lab9-again.csproj|solutionrelative:lab9-again\\customerlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B80213B-F5C5-486B-AB94-AE44F28D8A6E}|lab9-again\\lab9-again.csproj|d:\\online\\.net\\labs\\lab10-2\\lab9-again\\clsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B80213B-F5C5-486B-AB94-AE44F28D8A6E}|lab9-again\\lab9-again.csproj|solutionrelative:lab9-again\\clsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerList.aspx.cs",
+              "DocumentMoniker": "D:\\Online\\.NET\\Labs\\Lab10-2\\lab9-again\\CustomerList.aspx.cs",
+              "RelativeDocumentMoniker": "lab9-again\\CustomerList.aspx.cs",
+              "ToolTip": "D:\\Online\\.NET\\Labs\\Lab10-2\\lab9-again\\CustomerList.aspx.cs",
+              "RelativeToolTip": "lab9-again\\CustomerList.aspx.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAGcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T12:35:22.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerList.aspx",
+              "DocumentMoniker": "D:\\Online\\.NET\\Labs\\Lab10-2\\lab9-again\\CustomerList.aspx",
+              "RelativeDocumentMoniker": "lab9-again\\CustomerList.aspx",
+              "ToolTip": "D:\\Online\\.NET\\Labs\\Lab10-2\\lab9-again\\CustomerList.aspx",
+              "RelativeToolTip": "lab9-again\\CustomerList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-17T11:53:15.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsDatabase.cs",
+              "DocumentMoniker": "D:\\Online\\.NET\\Labs\\Lab10-2\\lab9-again\\clsDatabase.cs",
+              "RelativeDocumentMoniker": "lab9-again\\clsDatabase.cs",
+              "ToolTip": "D:\\Online\\.NET\\Labs\\Lab10-2\\lab9-again\\clsDatabase.cs",
+              "RelativeToolTip": "lab9-again\\clsDatabase.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T11:58:41.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

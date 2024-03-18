@@ -1,0 +1,157 @@
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\lab9-again.dll.config
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\lab9-again.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\lab9-again.pdb
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Antlr3.Runtime.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\EntityFramework.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\EntityFramework.SqlServer.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Google.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Web.Infrastructure.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Newtonsoft.Json.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Owin.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\System.Web.Optimization.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\System.Web.Providers.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\WebGrease.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\System.Web.Optimization.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Antlr3.Runtime.pdb
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\EntityFramework.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\EntityFramework.SqlServer.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Google.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\obj\Debug\lab9-again.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\obj\Debug\lab9-again.dll
+c:\users\user\documents\visual studio 2013\Projects\lab9-again\lab9-again\obj\Debug\lab9-again.pdb
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\lab9-again.dll.config
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\lab9-again.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\lab9-again.pdb
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Antlr3.Runtime.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\AspNet.ScriptManager.jQuery.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\EntityFramework.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\EntityFramework.SqlServer.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Google.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Web.Infrastructure.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Newtonsoft.Json.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Owin.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\System.Web.Optimization.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\System.Web.Providers.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\WebGrease.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\System.Web.Optimization.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Antlr3.Runtime.pdb
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Newtonsoft.Json.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\EntityFramework.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\EntityFramework.SqlServer.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Google.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Online\.NET\Labs\lab9-again\lab9-again\obj\Debug\lab9-again.csproj.AssemblyReference.cache
+D:\Online\.NET\Labs\lab9-again\lab9-again\obj\Debug\lab9-again.csproj.CoreCompileInputs.cache
+D:\Online\.NET\Labs\lab9-again\lab9-again\obj\Debug\lab9-again.csproj.Up2Date
+D:\Online\.NET\Labs\lab9-again\lab9-again\obj\Debug\lab9-again.dll
+D:\Online\.NET\Labs\lab9-again\lab9-again\obj\Debug\lab9-again.pdb
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\lab9-again.dll.config
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\lab9-again.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\lab9-again.pdb
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Antlr3.Runtime.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\AspNet.ScriptManager.jQuery.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\EntityFramework.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\EntityFramework.SqlServer.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Google.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Web.Infrastructure.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Newtonsoft.Json.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Owin.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\System.Web.Optimization.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\System.Web.Providers.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\WebGrease.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\System.Web.Optimization.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Antlr3.Runtime.pdb
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Newtonsoft.Json.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\EntityFramework.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\EntityFramework.SqlServer.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Google.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Online\.NET\Labs\Lab10-2\lab9-again\obj\Debug\lab9-again.csproj.AssemblyReference.cache
+D:\Online\.NET\Labs\Lab10-2\lab9-again\obj\Debug\lab9-again.csproj.CoreCompileInputs.cache
+D:\Online\.NET\Labs\Lab10-2\lab9-again\obj\Debug\lab9-again.csproj.Up2Date
+D:\Online\.NET\Labs\Lab10-2\lab9-again\obj\Debug\lab9-again.dll
+D:\Online\.NET\Labs\Lab10-2\lab9-again\obj\Debug\lab9-again.pdb
