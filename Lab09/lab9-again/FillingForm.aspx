@@ -33,7 +33,7 @@
                 <td class="auto-style3" colspan="2" style="background-color: #FFFFFF; color: #000000; font-weight: bold">Đăng ký khách hàng</td>
             </tr>
             <tr>
-                <td class="auto-style2" colspan="2" style="color: #FFFFFF; background-color: #0000FF; font-weight: bold;">Thông tin đăng nhập</td>
+                <td class="auto-style2" colspan="2" style="color: #FFFFFF; background-color: #008000; font-weight: bold;">Thông tin đăng nhập</td>
             </tr>
             <tr>
                 <td class="auto-style4">Tên đăng nhập</td>

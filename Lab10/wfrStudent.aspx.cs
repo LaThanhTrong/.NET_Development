@@ -144,5 +144,15 @@ namespace Lab10
                 Response.Redirect($"wfrStudent.aspx?userid={maSV}");
             }
         }
+
+        protected void GridView_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+
+        }
+
+        protected void GridView_RowDeleted(object sender, GridViewDeletedEventArgs e)
+        {
+
+        }
     }
 }

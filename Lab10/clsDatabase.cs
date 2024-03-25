@@ -12,9 +12,11 @@ class clsDatabase
         {
             conn = new SqlConnection("Server=RAZER; Database=QLSV; uid=mylogin; pwd=mylogin");
             conn.Open();
+            System.Diagnostics.Debug.WriteLine("Success");
         }
         catch (Exception ex)
         {
+            System.Diagnostics.Debug.WriteLine("Failed");
             return false;
         }
         return true;

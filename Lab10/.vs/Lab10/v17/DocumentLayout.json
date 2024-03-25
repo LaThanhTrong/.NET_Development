@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Online\\.NET\\Labs\\Lab10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|d:\\online\\.net\\labs\\lab10\\wfrstudent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|solutionrelative:wfrstudent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|d:\\online\\.net\\labs\\lab10\\wfrstudent.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|solutionrelative:wfrstudent.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|d:\\online\\.net\\labs\\lab10\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|D:\\Online\\.NET\\Labs\\Lab10\\wfrstudent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FE655232-3FBA-45E3-8224-1BD6A810C78A}|Lab10.csproj|solutionrelative:wfrstudent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,42 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Online\\.NET\\Labs\\Lab10\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "D:\\Online\\.NET\\Labs\\Lab10\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T13:59:37.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "wfrStudent.aspx.cs",
               "DocumentMoniker": "D:\\Online\\.NET\\Labs\\Lab10\\wfrStudent.aspx.cs",
               "RelativeDocumentMoniker": "wfrStudent.aspx.cs",
               "ToolTip": "D:\\Online\\.NET\\Labs\\Lab10\\wfrStudent.aspx.cs",
               "RelativeToolTip": "wfrStudent.aspx.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCgAAAAAAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwFQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T13:42:49.371Z",
+              "WhenOpened": "2024-03-22T02:37:34.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "wfrStudent.aspx",
               "DocumentMoniker": "D:\\Online\\.NET\\Labs\\Lab10\\wfrStudent.aspx",
               "RelativeDocumentMoniker": "wfrStudent.aspx",
-              "ToolTip": "D:\\Online\\.NET\\Labs\\Lab10\\wfrStudent.aspx",
-              "RelativeToolTip": "wfrStudent.aspx",
+              "ToolTip": "D:\\Online\\.NET\\Labs\\Lab10\\wfrStudent.aspx*",
+              "RelativeToolTip": "wfrStudent.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-16T13:42:09.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T02:36:59.717Z"
             }
           ]
         }
